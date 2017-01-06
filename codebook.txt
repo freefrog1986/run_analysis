@@ -1,0 +1,15 @@
+id: An identifier of the subject who carried out the experiment.
+	unit 1~30
+
+label: reprents 6 diffrent activity labels
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+
+all of the left 86 variables reprents the mean value for relevent id and label.
+for example:
+"tBodyAcc.mean...X" is mean vale of all tBodyAcc.mean values at X axis for specific id and label
+
