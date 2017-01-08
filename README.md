@@ -1,12 +1,5 @@
 # run_analysis.R is to clean and tidy dataset
 # this is my approach：
-# First include dplyr to use functions like select and merge summarise_all
-# Second, preparing dataset by reading and binding all relevent data together 
-# Third, setting property variable names and romeving duplicate column names
-# fourth, Extracts only the measurements on the mean and standard deviation for each measurement
-# sixth, getting average of each variable for each activity and each subject.
-# Fifth, Merges the training and the test sets to create one data set
-# last step, save result to mean_data.txt
 
 # First include dplyr to use functions like select and merge summarise_all
 library(dplyr)
