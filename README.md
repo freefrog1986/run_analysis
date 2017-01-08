@@ -1,8 +1,10 @@
 # run_analysis.R is to clean and tidy dataset
 # this is my approach：
 
-# First include dplyr to use functions like select and merge summarise_all
+#### include relevent packages and remove all environment variables
 library(dplyr)
+library(data.table)
+rm(list = ls())
 
 # Second, preparing dataset by reading and binding all relevent data together 
 X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")

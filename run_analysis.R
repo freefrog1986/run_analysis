@@ -1,4 +1,7 @@
+#### include relevent packages and remove all environment variables
 library(dplyr)
+library(data.table)
+rm(list = ls())
 
 #load dataset
 X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
